@@ -247,7 +247,6 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: black;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
     font-size: 1.625rem;
     margin: 0;
