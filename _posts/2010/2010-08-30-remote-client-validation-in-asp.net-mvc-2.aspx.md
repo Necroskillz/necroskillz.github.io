@@ -2,7 +2,7 @@
 layout: post
 title: Remote client validation in ASP.NET MVC 2
 description:
-modified: YYYY-08-DD
+modified: 2010-08-30
 tags: [ASP.NET MVC, jquery, validation]
 comments: true
 ---

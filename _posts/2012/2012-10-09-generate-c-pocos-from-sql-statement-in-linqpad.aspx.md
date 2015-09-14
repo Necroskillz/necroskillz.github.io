@@ -2,7 +2,7 @@
 layout: post
 title: Generate C# POCOs from SQL statement in LINQPad
 description:
-modified: YYYY-10-DD
+modified: 2012-10-09
 tags: [LINQPad, SQL]
 comments: true
 ---

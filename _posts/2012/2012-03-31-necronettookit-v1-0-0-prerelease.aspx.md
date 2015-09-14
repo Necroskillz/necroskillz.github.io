@@ -2,7 +2,7 @@
 layout: post
 title: NecroNetTookit v1.0.0 prerelease
 description:
-modified: YYYY-03-DD
+modified: 2012-03-31
 tags: [NecroNetToolkit]
 comments: true
 ---

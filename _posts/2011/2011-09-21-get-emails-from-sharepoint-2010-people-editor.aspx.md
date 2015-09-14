@@ -2,7 +2,7 @@
 layout: post
 title: Get emails from SharePoint 2010 people editor
 description:
-modified: YYYY-09-DD
+modified: 2011-09-21
 tags: [SharePoint 2010]
 comments: true
 ---

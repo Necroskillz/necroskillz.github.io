@@ -2,7 +2,7 @@
 layout: post
 title: Announcing CodeCaml - write SharePoint queries with C#
 description:
-modified: YYYY-08-DD
+modified: 2011-08-31
 tags: [SharePoint, CAML, CodeCaml]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Unit of Work pattern in NecroNetToolkit
 description:
-modified: YYYY-06-DD
+modified: 2010-06-19
 tags: [Entity Framework, NecroNetToolkit]
 comments: true
 ---

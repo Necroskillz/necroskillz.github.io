@@ -2,7 +2,7 @@
 layout: post
 title: Animated transitions between pages in WPF/Silverlight without any code
 description:
-modified: YYYY-04-DD
+modified: 2010-04-29
 tags: [Expression Blend, WPF, Silverlight]
 comments: true
 ---

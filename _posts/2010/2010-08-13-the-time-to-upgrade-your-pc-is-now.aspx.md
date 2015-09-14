@@ -2,7 +2,7 @@
 layout: post
 title: The time to upgrade your PC is now
 description:
-modified: YYYY-08-DD
+modified: 2010-08-13
 tags: [Hardware, PC Construction]
 comments: true
 ---

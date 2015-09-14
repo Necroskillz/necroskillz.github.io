@@ -2,7 +2,7 @@
 layout: post
 title: Unit testing code that uses HttpContext.Current.Session
 description:
-modified: YYYY-07-DD
+modified: 2010-07-28
 tags: [Unit testing, NecroNetToolkit]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Visual Studio 2010 lanches today
 description:
-modified: YYYY-04-DD
+modified: 2010-04-12
 tags: [Visual Studio]
 comments: true
 ---

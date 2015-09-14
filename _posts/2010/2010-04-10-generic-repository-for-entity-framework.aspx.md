@@ -2,7 +2,7 @@
 layout: post
 title: Generic repository for Entity Framework
 description:
-modified: YYYY-04-DD
+modified: 2010-04-10
 tags: [Entity Framework, NecroNetToolkit]
 comments: true
 ---

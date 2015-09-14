@@ -74,7 +74,7 @@ prose:
         field:
           label: "Title"
           element: "text"
-          value: "An Awesome Headline!"
+          value: "Le title"
       - name: "description"
         field:
           element: "text"
@@ -83,13 +83,14 @@ prose:
       - name: "modified"
         field:
           element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
+          label: "Post date"
+          value: CURRENT_DATETIME
       - name: "tags"
         field:
-          element: "text"
+          element: "multiselect"
           label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
+          options: 'http://necroskillz.github.io/tags.jsonp'
+          alterable: true
       - name: "imagefeature"
         field:
           element: "text"

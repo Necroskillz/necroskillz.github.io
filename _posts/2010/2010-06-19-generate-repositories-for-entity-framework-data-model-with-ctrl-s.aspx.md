@@ -2,7 +2,7 @@
 layout: post
 title: Generate repositories for Entity framework data model with Ctrl+S
 description:
-modified: YYYY-06-DD
+modified: 2010-06-19
 tags: [Entity Framework, NecroNetToolkit]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: MCTS 70-515 experience
 description:
-modified: YYYY-04-DD
+modified: 2011-04-18
 tags: [MCP, ASP.NET]
 comments: true
 ---

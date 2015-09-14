@@ -2,7 +2,7 @@
 layout: post
 title: Updates to NecroNetToolkit
 description:
-modified: YYYY-04-DD
+modified: 2011-04-19
 tags: [NecroNetToolkit, Entity Framework]
 comments: true
 ---

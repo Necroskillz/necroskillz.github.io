@@ -2,7 +2,7 @@
 layout: post
 title: Enable or disable ribbon custom action based on user permissions
 description:
-modified: YYYY-07-DD
+modified: 2011-07-25
 tags: [SharePoint 2010, SharePoint ecmascript]
 comments: true
 ---

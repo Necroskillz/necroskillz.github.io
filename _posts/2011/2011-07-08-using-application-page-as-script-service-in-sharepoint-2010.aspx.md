@@ -2,7 +2,7 @@
 layout: post
 title: Using application page as script service in SharePoint 2010
 description:
-modified: YYYY-07-DD
+modified: 2011-07-08
 tags: [SharePoint 2010]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: I heart Windows Phone wallpaper
 description:
-modified: YYYY-07-DD
+modified: 2010-07-01
 tags: []
 comments: true
 ---

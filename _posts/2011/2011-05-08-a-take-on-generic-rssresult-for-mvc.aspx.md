@@ -2,7 +2,7 @@
 layout: post
 title: A take on generic RssResult for MVC
 description:
-modified: YYYY-05-DD
+modified: 2011-05-08
 tags: [ASP.NET MVC, RSS, NecroNetToolkit]
 comments: true
 ---

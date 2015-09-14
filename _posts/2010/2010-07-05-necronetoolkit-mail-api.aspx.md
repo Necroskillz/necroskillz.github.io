@@ -2,7 +2,7 @@
 layout: post
 title: NecroNetToolkit Mail API
 description:
-modified: YYYY-07-DD
+modified: 2010-07-05
 tags: [NecroNetToolkit]
 comments: true
 ---
