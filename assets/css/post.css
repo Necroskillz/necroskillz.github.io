@@ -21,7 +21,6 @@ html, body, .notepad-post-container, .notepad-post-header {
   font-size: 1.625rem;
   font-weight: 700;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -0.0625rem; }
   .notepad-post-header-title a {
     color: white; }
@@ -102,8 +101,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       font-weight: 800;
       font-size: 2.5rem;
       margin: 0 auto;
-      line-height: 1.1;
-      text-transform: uppercase; }
+      line-height: 1.1; }
       @media only screen and (min-width: 40.063em) {
         .post-template .notepad-post-title h1 {
           font-size: 3.125rem; } }
@@ -404,8 +402,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     padding-bottom: 4.375rem;
     margin: 0 auto;
     line-height: 1.1;
-    text-align: center;
-    text-transform: uppercase; }
+    text-align: center; }
     @media only screen and (min-width: 40.063em) {
       .notepad-page-title h1,
       .notepad-post-title-simple h1 {
