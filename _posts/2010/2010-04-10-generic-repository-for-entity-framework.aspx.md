@@ -12,8 +12,7 @@ inheritance tree. Just to give you the idea of what it can do, here is
 the actual interface I’m using now:
 
 ```csharp
-public interface IRepository<TEntity>
-    where TEntity : class
+public interface IRepository<TEntity> where TEntity : class
 {
     IEnumerable<TEntity> GetEnumerable();
     IEnumerable<TEntity> GetEnumerable(Expression<Func<TEntity, bool>> predicate);

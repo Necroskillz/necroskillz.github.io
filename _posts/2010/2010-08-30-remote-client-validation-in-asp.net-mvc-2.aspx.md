@@ -14,8 +14,8 @@ around a bit for a solution I could use with built-in MVC validation and
 found [this article from Brad
 Wilson](http://bradwilson.typepad.com/blog/2010/01/remote-validation-with-aspnet-mvc-2.html)
 implementing exactly that. I went trough the comments and it turns out
-that there is a RemoteAttribute class in Mvc Futures assembly
-(Microsoft.Web.Mvc.AspNet4 to be exact). It surprised me a little that
+that there is a `RemoteAttribute` class in Mvc Futures assembly
+(`Microsoft.Web.Mvc.AspNet4` to be exact). It surprised me a little that
 there was no adapter for this attribute, but fortunately it’s simple
 enough to write it.
 

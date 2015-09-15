@@ -13,7 +13,7 @@ events. There are some mail toolkits out there, but none are really what
 I would like for my MVC oriented toolkit. What I mean is that I like to
 create partial views as templates for my emails. Other than that, the
 mail api will be able to send text mails (optionally formatted), mainly
-as a last resort, because I like sending emails in html much better.\
+as a last resort, because I like sending emails in html much better.
 So I started with this interface:
 
 ```csharp
@@ -75,12 +75,13 @@ private static string RenderPartialToString(string controlName, object model)
 Some restrictions apply for this obviously, for example there is no
 HttpContext, so you have to do all that stuff (like generating urls) in
 your controller, and pass it into the view in model. But for emails it’s
-not that big of a deal.\
+not that big of a deal.
+
 For asynchronous sending, I’m using TPL (Task Parallel Library), because
-I can manage it easier, and I also found that SmtpClient’s SendAsync
+I can manage it easier, and I also found that `SmtpClient`’s `SendAsync`
 methods are weird (read: I tried them and the email didn’t get sent at
 all). So with TPL I have more control over it. You may have noticed that
-IMailBot is also IDisposable, because I want to dispose SmtpClient when
+`IMailBot` is also `IDisposable`, because I want to dispose `SmtpClient` when
 I’m done with it (that sends QUIT message to SMTP server). Here is how I
 implemented this:
 
@@ -127,10 +128,12 @@ private void CheckDispose()
 }
 ```
 
-Notice that the SmtpClient is disposed after Dispose is called and all
-mail is sent.\
-You can imagine other methods from the IMailBot interface just create a
-MailMessage and pass it to SendAsync method.\
+Notice that the `SmtpClient` is disposed after `Dispose` is called and all
+mail is sent.
+
+You can imagine other methods from the `IMailBot` interface just create a
+`MailMessage` and pass it to `SendAsync` method.
+
 Another matter is to configure the mail bot. You can configure the
 SmtpClient the same way you are used to, in system.net section of
 web.config. I wanted to add a little more, so I took a look at some open
@@ -164,7 +167,7 @@ attribute is bare minimum. All encodings default to UTF-8.
 
 ```xml
 <necroNetToolkit.Mail>
-       <from address="noreply@yourdomain.com />
+    <from address="noreply@yourdomain.com />
 </necroNetToolkit.Mail>
 ```
 

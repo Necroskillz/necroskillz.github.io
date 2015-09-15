@@ -70,7 +70,7 @@ content type and user has edit permissions for that item) or false
 otherwise. Then I use jQuery to ‘call’ that application page with
 \$.post and depending on the result I can enable or disable the button.
 
-I use this code for canHandleCommand. Useful trick to first do some
+I use this code for `canHandleCommand`. Useful trick to first do some
 asynchronous action before deciding whether to enable the button or not
 I picked up
 [here](http://blog.mastykarz.nl/sample-code-asynchronously-checking-ribbon-command/).
@@ -134,7 +134,7 @@ checkIsEnabled: function (ids) {
 You can see I make sure that selection hasn’t changed and also whether
 the checking method already ran or not, and then start the method that
 does the remote call. I do this because once the remote call is
-finished, I’m calling RefreshCommandUI() function that invokes
+finished, I’m calling `RefreshCommandUI()` function that invokes
 canHandleCommand again.
 
 Now the remote page is actually pretty simple.

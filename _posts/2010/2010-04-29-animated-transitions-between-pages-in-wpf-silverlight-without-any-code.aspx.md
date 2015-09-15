@@ -14,7 +14,8 @@ would be able to create UI without it, especially when it comes to
 animations and templates. Today I want to show you how easy it is to
 create animated transitions when you navigate between pages in Frame
 control. And, as title suggest, you won’t have to write a single line of
-code to do it.\
+code to do it.
+
 Let’s start by inserting a frame and creating a new storyboard called
 FadeOut.
 

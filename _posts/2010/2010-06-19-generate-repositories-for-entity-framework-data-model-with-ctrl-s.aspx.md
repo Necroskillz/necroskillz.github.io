@@ -6,13 +6,6 @@ modified: 2010-06-19
 tags: [Entity Framework, NecroNetToolkit]
 comments: true
 ---
-Reference articles:
-
--   [Generic repository for Entity
-    Framework](http://www.necronet.org/archive/2010/04/10/generic-repository-for-entity-framework.aspx)
--   [Unit of Work pattern in
-    NecroNetToolkit](http://www.necronet.org/archive/2010/06/19/unit-of-work-pattern-in-necronettoolkit.aspx)
-
 I already explained how to make repositories simpler, by deriving from
 generic base. But the fact you need to create a repository for each
 entity in the data model still seemed like too much repetitive work. So
@@ -38,3 +31,9 @@ You can download the code along with NecroNetToolkit from github -
 
 Exact link to the T4 template:
 <http://github.com/Necroskillz/NecroNetToolkit/blob/master/T4Templates/Repositories.tt>
+
+Reference articles:
+-   [Generic repository for Entity
+    Framework](http://www.necronet.org/archive/2010/04/10/generic-repository-for-entity-framework.aspx)
+-   [Unit of Work pattern in
+    NecroNetToolkit](http://www.necronet.org/archive/2010/06/19/unit-of-work-pattern-in-necronettoolkit.aspx)

@@ -55,7 +55,7 @@ public abstract class ScriptServicePageBase : LayoutsPageBase
 }
 ```
 
-This is just a simple example without any checks, and parameters has to
+This is just a simple example without any checks, and parameters have to
 be strings. That could be fixed and extended with some kind of model
 binder implementation. Just bear with me for now.
 

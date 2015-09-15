@@ -29,9 +29,9 @@ so I had more than a week to prepare for the exam.
 
 So I was signed up, and went online to look for some materials to get
 ready. One thing I noticed is there are some sites that sell some
-materials and example test for about \$100. I just laughed at that,
-because as an individual, I’m not about to spend \$100 to prepare for
-\$40 exam (if it wasn’t for free). I also tried some free demos of
+materials and example test for about $100. I just laughed at that,
+because as an individual, I’m not about to spend $100 to prepare for
+$40 exam (if it wasn’t for free). I also tried some free demos of
 ‘example exam’ software. Most of them were somewhat sketchy, although
 some questions were in fact similar to the ones on the exam. Not too
 helpful though.
@@ -41,7 +41,7 @@ nuggets](http://www.cbtnuggets.com/series/630) (snatched from
 [torrent](http://thepiratebay.org/torrent/6016710/CBT_Nuggets_Microsoft_70-515_.NET_4_MCTS_Web_Applications_Develo)
 of course, otherwise it’s kind of expensive) and [self-paced training
 kit](http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401)
-that costs \$40 (I managed to get it from a torrent, but didn’t read it
+that costs $40 (I managed to get it from a torrent, but didn’t read it
 anyway – way too much text). The CBT nuggets videos are worth watching I
 guess, they only deal with basics, but it’s a nice overview of what to
 expect. As I said, there was not much to go on. My only preparation was
@@ -52,7 +52,7 @@ with ASP.NET or MVC (or both) that I have been able to pass it. Here’s
 how is the exam structured: first you answer a few irrelevant questions,
 and click about a hundred times through various terms and licenses and
 whatnot before you get to answer the actual questions. Then there are
-**51** questions that *matter*. ** All of these are either multiple or
+**51** questions that *matter*. All of these are either multiple or
 single choice (no drag&drop and similar nonsense), and if it’s multiple
 choice you know how many choices are correct. I personally like these
 kinds of tests, since you can usually tell the correct answer by

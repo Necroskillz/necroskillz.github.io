@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unit testing code that uses HttpContext.Current.Session
+title_font_size: 3.575rem
 description:
 modified: 2010-07-28
 tags: [Unit testing, NecroNetToolkit]

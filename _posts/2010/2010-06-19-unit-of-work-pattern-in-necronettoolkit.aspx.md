@@ -12,9 +12,10 @@ an
 where the pattern and implementation is explained with full code you can
 download. You notice it’s an implementation for NHibernate, so I rewrote
 it to make it work with Entity Framework instead. I also made it more
-general, so I could use it with any data model.\
+general, so I could use it with any data model.
+
 Usage is very simple. First, create a partial class of your object
-context, and make it implement IObjectContext interface.
+context, and make it implement `IObjectContext` interface.
 
 ```csharp
 public partial class MyEntities : IObjectContext
@@ -23,7 +24,7 @@ public partial class MyEntities : IObjectContext
 ```
 
 Next, you need to create a factory which will supply object contexts.
-You are required to implement Create method from IObjectContextFactory
+You are required to implement `Create` method from `IObjectContextFactory`
 interface.
 
 ```csharp
@@ -63,7 +64,7 @@ using(var scope = UnitOfWork.Start())
 }
 ```
 
-In MVC application, I prefer to start unit of work at beginning of a
+In a MVC application, I prefer to start unit of work at beginning of a
 request, and dispose it when request ends. I like to use base controller
 for that.
 

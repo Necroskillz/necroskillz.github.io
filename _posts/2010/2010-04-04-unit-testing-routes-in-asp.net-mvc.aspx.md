@@ -60,20 +60,20 @@ public static ActionResult ShouldGenerateUrl(this ActionResult result, string ex
 So what am I doing here? After some digging I found this
 [post](http://stackoverflow.com/questions/674458/asp-net-mvc-unit-testing-controllers-that-use-urlhelper)
 on stack overflow that told me what I need to mock to use UrlHelper
-outside of HttpContext. I also tell rhino mocks I’m expecting a call to
-response.ApplyAppPathModifier with parameter equal to the URL I’m
+outside of `HttpContext`. I also tell rhino mocks I’m expecting a call to
+`response.ApplyAppPathModifier` with parameter equal to the URL I’m
 expecting, because I know that this method gets called after the URL has
 been constructed, just to make it fully qualified name. I’m passing in
 an action result – that’s how it’s done in T4MVC – and calling extension
-method defined by T4MVC GetRouteValueDictionary that gets route values
+method defined by T4MVC `GetRouteValueDictionary` that gets route values
 for that action result. Everything is set up now, so I make rhino mocks
 enter replay mode and make an attempt to generate URL base on the route
 values. If it generates an URL you expected, then nothing happens and
 your unit test continues. If it generates different URL, however, you
 will get an error message from rhino mocks saying I expected a call with
 this parameter, but instead I got a call with a different one. Because
-I’m using strict mock I don’t even need to call mocks.VerifyAll() – the
-exception is thrown immediately after the ApplyAppPathModifier method is
+I’m using strict mock I don’t even need to call `mocks.VerifyAll()` – the
+exception is thrown immediately after the `ApplyAppPathModifier` method is
 called with wrong parameter.
 
 For convenience I created some overloads:
@@ -96,7 +96,7 @@ public static ActionResult ShouldGenerateUrl(this ActionResult result, string ex
 }
 ```
 
-So now if I want to test what URL is generated I can use something like\
+So now if I want to test what URL is generated I can use something like
 
 ```csharp
 MVC.Home.About().ShouldGenerateUrl("/Home/About");
@@ -116,5 +116,5 @@ in MVC, especially if you use ajax helpers. You just keep wondering “why
 the hell it’s not working?” After a while you open firebug to see the
 nice 500 – Internal server error, and find out it doesn’t work because
 the routes are not working. I hope that combination of this method of
-verifying generated URLs and TestHelper in MvcContrib will lead to
+verifying generated URLs and TestHelper in `MvcContrib` will lead to
 avoiding at least some of these issues.

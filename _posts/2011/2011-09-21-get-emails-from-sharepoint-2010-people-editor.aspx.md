@@ -12,7 +12,7 @@ projects. Of course SharePoint groups as well as AD groups could be
 selected too.
 
 It’s not extremely hard to do, but it’s handy to have it up for other
-coworkers and peoples use.
+coworkers and people use.
 
 ```csharp
 public static class SPFieldUserValueCollectionExtensions
@@ -72,14 +72,14 @@ public static class SPFieldUserValueCollectionExtensions
 }
 ```
 
-So basically you iterate through a SPFieldUserValueCollection, checking
+So basically you iterate through a `SPFieldUserValueCollection`, checking
 if User property is null first. If it is, it means one of two things:
 either it’s a SharePoint group or it’s an AD group that wasn’t loaded
 into SharePoint yet. If the group is found in SiteGroups, it’s a
 SharePoint group, otherwise AD group must be loaded using EnsureUser
 method.
 
-Also for SharePoint group, if DistributionGroupEmail property is not
+Also for SharePoint group, if `DistributionGroupEmail` property is not
 set, the code drills into the group, and adds emails of all members.
 
 One thing this method doesn’t do is drill into AD groups when email is
@@ -89,7 +89,7 @@ pass it onto your IT department (or theirs).
 
 If your data doesn’t come from built in people picker field, but rather
 from custom form with people picker, you can parse content into
-SPFieldUserValueCollection like this:
+`SPFieldUserValueCollection` like this:
 
 ```csharp
 var mailUsers = new SPFieldUserValueCollection();

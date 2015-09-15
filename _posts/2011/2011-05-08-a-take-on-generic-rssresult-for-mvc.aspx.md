@@ -13,7 +13,7 @@ explained how to create RSS feed by using a class derived from
 FileResult. I used it a few times since, but had to always copy+paste it
 into my new project, and rewrite it to fit my model. So naturally I
 thought if there was a way to generalize it, and make it reusable across
-applications. Lately I got into a habit of using Func&lt;&gt; delegates
+applications. Lately I got into a habit of using `Func<>` delegates
 a lot. This is what I came up with:
 
 ```csharp
@@ -112,7 +112,7 @@ public ActionResult Rss()
 ```
 
 This is a little messy, but gets the job done. A neater solution is to
-derive from RssResult&lt;T&gt;. You are back to a class per feed
+derive from `RssResult<T>`. You are back to a class per feed
 scenario, but it’s a lot simpler.
 
 ```csharp
@@ -141,13 +141,13 @@ public ActionResult Rss()
 ```
 
 Another possible refactoring is to extend your controller base class
-with methods that return your RssResult, and then just say something
-like return Rss(people); but that has been mentioned about a thousand
+with methods that return your `RssResult`, and then just say something
+like `return Rss(people);` but that has been mentioned about a thousand
 times already on various blogs, so I’m not going to repeat that.
 
 This class only supports simple feeds, but can serve as a baseline if
 you need to add some custom stuff as well. Also it should be fairly
-simple to unit test, since you can just test a bunch of Func&lt;&gt;
+simple to unit test, since you can just test a bunch of `Func<>`
 delegates a check their return value. I will be including this in the
 next version of
 [NecroNetToolkit](https://github.com/Necroskillz/NecroNetToolkit) which
