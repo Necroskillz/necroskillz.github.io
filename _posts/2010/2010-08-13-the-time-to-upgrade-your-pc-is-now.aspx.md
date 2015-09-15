@@ -56,7 +56,7 @@ Applying this left me with two models: [core
 i7-930](http://www.newegg.com/Product/Product.aspx?Item=N82E16819115225&cm_re=core_i7-930-_-19-115-225-_-Product)
 and an older 920 model that apparently isn’t manufactured anymore.
 
-Price estimate: 6000 CZK (\~\$300)
+Price estimate: 6000 CZK (~$300)
 
 ### The motherboard
 
@@ -70,7 +70,7 @@ or
 [UD7](http://www.newegg.com/Product/Product.aspx?Item=N82E16813128413&cm_re=gigabyte_x58a-_-13-128-413-_-Product)
 models.
 
-Price estimate: 5800 CZK  (\~\$300) for UD5, 6700 CZK  (\~\$350) for UD7
+Price estimate: 5800 CZK  (~$300) for UD5, 6700 CZK  (~$350) for UD7
 
 ### RAM
 
@@ -80,7 +80,7 @@ but unfortunately I wasn’t able to get these on a short notice. So
 instead I got some Kingston with the same parameters (3x4 GB, 1333 MHz,
 CL9).
 
-Price estimate: 10000 CZK (\~\$525) – these are expensive as hell in our
+Price estimate: 10000 CZK (~$525) – these are expensive as hell in our
 country :(
 
 ### HDD
@@ -95,7 +95,7 @@ makes](http://www.newegg.com/Product/Product.aspx?Item=N82E16820167024&cm_re=x25
 For random data (like movies, TV shows, etc. I’ll keep my 300 GB
 standard SATA drive).
 
-Price estimate: 9400 CZK  (\~\$500)
+Price estimate: 9400 CZK  (~$500)
 
 ### 
 
@@ -107,10 +107,10 @@ that I already have.
 
 Price estimate: 0
 
-So if I sum this up, I end up with about 32000 CZK (\~\$1700). That’s
+So if I sum this up, I end up with about 32000 CZK (~$1700). That’s
 not counting the value added tax. I was able to buy this through my
-mothers company for 28000 CZK (\~\$1500), and using untaxed money to buy
-this, I got another 25% off, leaving the price at 21000 CZK (\~\$1100).
+mothers company for 28000 CZK (~$1500), and using untaxed money to buy
+this, I got another 25% off, leaving the price at 21000 CZK (~$1100).
 I admit, I wouldn’t want to buy it in a standard store, because I would
 have to pay almost twice as much. I assume though that most of you
 (developers) have a similar way of buying hardware.

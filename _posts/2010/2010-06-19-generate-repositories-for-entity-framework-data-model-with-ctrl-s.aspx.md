@@ -21,7 +21,8 @@ unit of work and repository base form the toolkit. But you could make
 more complicated template file, to just generate repositories with all
 methods you need without the need of any third party libraries (no way
 I’m doing that though, so far I’m happy with the way unit of work +
-repositories in NecroNet Toolkit work).\
+repositories in NecroNet Toolkit work).
+
 One final note is that the template generates partial classes and
 partial interfaces, so you can extend it with you custom methods if you
 need.

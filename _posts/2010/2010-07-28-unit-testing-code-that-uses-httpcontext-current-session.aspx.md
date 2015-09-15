@@ -9,18 +9,18 @@ comments: true
 ---
 In process of writing unit test for NecroNetToolkit (yes, I know I
 should have written tests first) I needed to test a proxy class that
-stores and retrieves values from HttpContext.Current.Session. It’s kind
-of pain, because you can’t mock HttpContext or the session state object.
-You could in MVC, where controllers have HttpContextBase, but you can’t
-do it with HttpContext.Current. I already had code for instantiating
-HttpContext, so I decided to try and ‘Inject’ the session into it.
+stores and retrieves values from `HttpContext.Current.Session`. It’s kind
+of pain, because you can’t mock `HttpContext` or the session state object.
+You could in MVC, where controllers have `HttpContextBase`, but you can’t
+do it with `HttpContext.Current`. I already had code for instantiating
+`HttpContext`, so I decided to try and ‘Inject’ the session into it.
 
 I used reflector to find out, that the Session property actually returns
-HttpContext.Items\[“AspSession”\]. So I created
-HttpSessionStateContainer, which is only parameter to HttpSessionState
-object. Only problem is that HttpSessionBase has internal constructors,
+`HttpContext.Items["AspSession"]`. So I created
+`ttpSessionStateContainer`, which is only parameter to `HttpSessionState`
+object. Only problem is that `HttpSessionBase` has internal constructors,
 so a little reflection magic is needed to instantiate it. And it worked!
-Now I can use HttpContext.Current.Session (at least to some extent) in
+Now I can use `HttpContext.Current.Session` (at least to some extent) in
 unit tests. Here’s the code:
 
 ```csharp

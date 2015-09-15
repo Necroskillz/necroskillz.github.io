@@ -13,7 +13,7 @@ anyway, you might change your mind ;).
 One of these messy things in SharePoint are CAML queries. Since LINQ to
 SharePoint is far from being reasonably usable, you can’t really avoid
 them. And they make my code look ugly. So I developed a tool, which can
-be used to generate CAML queries and statements with C\# code.
+be used to generate CAML queries and statements with C# code.
 
 This is an example of how you would write a simple query using CodeCaml:
 

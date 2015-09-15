@@ -68,7 +68,7 @@ created an application page in Layouts mapped folder, that reads some
 POST parameters (id) and outputs either True (if item is of required
 content type and user has edit permissions for that item) or false
 otherwise. Then I use jQuery to ‘call’ that application page with
-\$.post and depending on the result I can enable or disable the button.
+$.post and depending on the result I can enable or disable the button.
 
 I use this code for `canHandleCommand`. Useful trick to first do some
 asynchronous action before deciding whether to enable the button or not

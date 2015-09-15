@@ -21,7 +21,8 @@ example):
 
 And you have a test that says if user requests a URL like
 <http://www.example.com/> it should map to Index action of your Home
-controller.\
+controller.
+
 What I also needed though, was to test the URLs that are generated from
 these routes. Like say URL for an action link. So I came up with this
 helper method. This is using rhino mocks and T4MVC – which I encourage
