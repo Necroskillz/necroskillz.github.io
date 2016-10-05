@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>SEO test</title>
+        <base href="/"></base>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+        
+        <script type="text/javascript">
+            (function(){
+                'use strict';
+
+                angular.module('app', ['ng']).config(function($locationProvider){
+                    $locationProvider.html5Mode(true);
+                });
+
+                angular.module('app').component('app', {
+                    template: '<div ng-bind-html="$ctrl.content"></div>',
+                    controller: AppCtrl
+                });
+
+                function AppCtrl($http, $sce, $location){
+                    var ctrl = this;
+                    
+                    ctrl.$onInit = init;
+
+                    function init(){
+                        var mode = $location.search()['mode'];
+                        var path = mode === 'ok' ? '/seo/content.html' : '/seo/content2.html';
+
+                        $http.get(path).then(function(res){
+                            ctrl.content = $sce.trustAsHtml(res.data);
+                        }).catch(function(){
+                            ctrl.content = $sce.trustAsHtml('404 Not Found');
+                        });
+                    }
+                }
+            })();
+        </script>
+    </head>
+
+    <body>
+        <app ng-app="app"></app>
+    </body>
+</html>
